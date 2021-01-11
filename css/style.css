@@ -6,13 +6,13 @@
 header {
     margin-bottom: 50px;
 }
-
+/* Search bar styles */
 header input {
     position: absolute;
     right: 10px;
     color: gray;
 }
-
+/* red line styles */
 main hr {
     width: 30px;
     border: 1px solid red;
@@ -20,7 +20,7 @@ main hr {
     margin-left: auto;
     margin-right: auto;
 }
-
+/* Styles for alphabet section of page*/
 main ul {
     list-style-type: none;
 }
@@ -35,7 +35,7 @@ main ul li {
 main p {
     font-size: 30px;
 }
-
+/* Styles for "contact" boxes with name, email and phone*/
 .contact {
     height: 70px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -59,11 +59,11 @@ main p {
     color: white;
     font-size: 10px;
 }
-
+/* For some reason without this style phone number and email are too far apart*/
 #phone {
     margin-top: -12px;
 }
-
+/* Styles for "add" button div*/
 .circle {
     height: 50px;
     width: 50px;
@@ -82,6 +82,7 @@ main p {
     font-size: 15px;
 }
 
+/* Using media query to hide search bar on smartphones*/
 @media (max-width: 576px) {
     input {
         display: none;
